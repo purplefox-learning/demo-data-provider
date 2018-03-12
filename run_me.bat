@@ -16,25 +16,25 @@ gradlew bootRun
 
 === Dependency tree ===
 
-:bootBuildInfo SKIPPED
-:compileJava SKIPPED
-:generateGitProperties SKIPPED
-:processResources SKIPPED
-:classes SKIPPED
-:bootJar SKIPPED
-:javadoc SKIPPED
-:javadocJar SKIPPED
-:sourceJar SKIPPED
-:distTar SKIPPED
-:distZip SKIPPED
-:jar SKIPPED
-:assemble SKIPPED
-:check SKIPPED
-:build SKIPPED
-:generatePomFileForMavenJavaPublication SKIPPED
+:bootBuildInfo 
+:compileJava 
+:generateGitProperties 
+:processResources 
+:classes 
+:bootJar 
+:javadoc 
+:javadocJar 
+:sourceJar 
+:distTar 
+:distZip 
+:jar 
+:assemble 
+:check 
+:build 
+:generatePomFileForMavenJavaPublication 
 --- path 1
-:publishMavenJavaPublicationToMavenLocal SKIPPED
-:publishToMavenLocal SKIPPED
+:publishMavenJavaPublicationToMavenLocal 
+:publishToMavenLocal 
 --- path 2
-:artifactoryPublish SKIPPED
-:artifactoryDeploy SKIPPED
+:artifactoryPublish 
+:artifactoryDeploy 

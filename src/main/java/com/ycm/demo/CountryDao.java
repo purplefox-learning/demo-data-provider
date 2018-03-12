@@ -14,8 +14,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class CountryDao {
 
-	private static final String getAllCountriesSql = "SELECT DISTINCT ctry_cd, ctry_cd_desc FROM test_dfab_open order by ctry_cd desc";
-	private static final String getCountryByCodeSql = "SELECT DISTINCT ctry_cd, ctry_cd_desc FROM test_dfab_open WHERE ctry_cd=? order by ctry_cd";
+	private static final String getAllCountriesSql = "select distinct code, description from country order by code desc";
+	private static final String getCountryByCodeSql = "select distinct code, description from country where code=? order by code";
 
 	private final JdbcTemplate jdbcTemplate;
 
@@ -39,7 +39,7 @@ public class CountryDao {
 	private static final class CountryRowMapper implements RowMapper<Country> {
 		@Override
 		public Country mapRow(ResultSet results, int arg1) throws SQLException {
-			Country cty = new Country(results.getString("ctry_cd"), results.getString("ctry_cd_desc"));
+			Country cty = new Country(results.getString("code"), results.getString("description"));
 			return cty;
 		}
 	}
