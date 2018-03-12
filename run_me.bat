@@ -1,6 +1,3 @@
-@REM gradlew -Dspring.profiles.active=default bootRun
-
-
 @REM High level order
 @REM clean, build, assembleDist, publishToMavenLocal, , artifactoryPublish
 
