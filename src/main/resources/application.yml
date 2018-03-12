@@ -1,0 +1,10 @@
+logging.level.org.springframework: INFO
+server.port: 8199
+management.security.enabled: false
+
+spring:
+  datasource:
+    url: 'jdbc:h2:tcp://localhost:9092/./testdb'
+    username: test
+    password: test
+    driverClassName: org.h2.Driver
